@@ -1,0 +1,24 @@
+{
+  "name": "generator-daddy",
+  "version": "0.1.0",
+  "description": "",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peng-Hello/generator-daddy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Peng-Hello/generator-daddy/issues"
+  },
+  "homepage": "https://github.com/Peng-Hello/generator-daddy#readme"
+}
