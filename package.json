@@ -9,6 +9,7 @@
     "yeoman-generator"
   ],
   "dependencies": {
+    "fs-extra": "^10.1.0",
     "yeoman-generator": "^1.1.1"
   },
   "repository": {
