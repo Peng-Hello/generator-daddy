@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  app:
+    image: markdoc_server:v1
+    ports:
+      - 8001:3000
+    working_dir: /app
+    volumes:
+      - ./:/app
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:8.0
+    ports:
+      - 8011:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_USER=dan
+      - MYSQL_PASSWORD=secret
+      - MYSQL_DATABASE=MarkDoc_Server
