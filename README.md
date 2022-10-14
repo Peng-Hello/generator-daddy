@@ -18,8 +18,11 @@ npm i generator-daddy
 npm install -g yo
 # 安装 generator-daddy 生成器
 npm install -g generator-daddy
-# 使用 generator-daddy 生成器 来生成项目
+# 使用 generator-daddy 生成器 来生成项目 (默认 Express 项目)
 yo daddy
+# 生成前端 Vue 项目
+yo daddy:web
 ```
 ## 更新日志
 - 加入英文文档
+- 加入前端工程生成模板

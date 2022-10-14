@@ -20,8 +20,10 @@ npm i generator-daddy
 npm install -g yo
 # Install generator-daddy generator
 npm install -g generator-daddy
-# Use generator-daddy to generate the project
+# Use generator-daddy to generate the project (Default Express project)
 yo daddy
+# Generate the front-end Vue project
+yo daddy:web
 ```
 ## Update Log
-
+- Add the front-end project generation template
