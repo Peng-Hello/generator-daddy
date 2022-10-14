@@ -1,7 +1,9 @@
 # generator-daddy
 
+<p>
 <img src="https://img.shields.io/github/license/Peng-Hello/generator-daddy">
 <img alt="npm" src="https://img.shields.io/npm/v/generator-daddy">
+</p>
 
 [English version](./doc/en.md)
 
