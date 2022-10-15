@@ -23,7 +23,7 @@ npm install -g generator-daddy
 # Use generator-daddy to generate the project (Default Express project)
 yo daddy
 # Generate the front-end Vue project
-yo daddy:web
+yo daddy:vue
 ```
 ## Update Log
 - Add the front-end project generation template
