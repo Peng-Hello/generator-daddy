@@ -17,14 +17,12 @@ export function setInterceptors(axios: AxiosInstance) {
     function (response) {
       // 2xx 范围内的状态码都会触发该函数。
       // 对响应数据做点什么
-      console.log("succ",response);
-      
+    
       return response;
     },
     function (error) {
       // 超出 2xx 范围的状态码都会触发该函数。
       // 对响应错误做点什么
-      console.log('error',error);
       const status =error.response.status
       if(status==500){
         return Promise.reject(new Error("请求错误"));

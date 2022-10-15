@@ -5,9 +5,7 @@ export const useStore = defineStore('storeId', {
   state: () => {
     return {
       // all these properties will have their type inferred automatically
-      count: 0,
-      name: 'Eduardo',
-      isAdmin: true,
+      content: "Pinia 的值"
     }
   },
 })

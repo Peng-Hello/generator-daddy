@@ -1,25 +1,21 @@
-import {
-  createRouter,
-  createWebHashHistory,
-  onBeforeRouteLeave,
-} from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
+// 路由表
 const routes = [
   {
     path: "/",
-    component: () => import("./../views/Index.vue"),
-    name: "Login",
+    component: () => import("../views/Index.vue"),
+    name: "Index",
     meta: {
-      position: "Login",
+      position: "首页",
     },
   },
-
   // 404 页
-  // {
-  //   path: "/:pathMatch(.*)*",
-  //   name: "NotFound",
-  //   component: () => import("./../share/404.vue"),
-  // },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: () => import("../share/error_page/404.vue"),
+  },
 ];
 
 const router = createRouter({
@@ -27,6 +23,9 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach((to, from) => {});
+// 路由守卫
+// router.beforeEach((to, from) => {
+
+// });
 
 export { router };
