@@ -23,6 +23,11 @@ yo daddy
 # 生成前端 Vue 项目
 yo daddy:vue
 ```
+## 注意
+```shell
+# 如果你使用非官方的 npm 源,可能会遇到 npm 包 not found 情况请尝试以下命令
+npm config set registry https://registry.npmjs.org/
+```
 ## 更新日志
 - 加入英文文档
 - 加入前端工程生成模板

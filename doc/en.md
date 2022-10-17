@@ -25,5 +25,9 @@ yo daddy
 # Generate the front-end Vue project
 yo daddy:vue
 ```
-## Update Log
+## Notice
+```shell
+# If you're using an unofficial npm source, you might run into npm packages not found. Try the following command
+npm config set registry https://registry.npmjs.org/
+```
 - Add the front-end project generation template
